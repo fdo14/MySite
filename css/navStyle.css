@@ -1,0 +1,51 @@
+.navBackground{
+  background-color: black;
+  opacity: .5;
+}
+
+.navBackground .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navBackground .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navBackground .navbar-nav .show > .nav-link,
+.navBackground .navbar-nav .active > .nav-link,
+.navBackground .navbar-nav .nav-link.show,
+.navBackground .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+
+.funtainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.col-cus-mid {
+  -ms-flex: 0 0 42%;
+  flex: 0 0 42%;
+  max-width: 42%;
+}
+
+.col-cus-out {
+  -ms-flex: 0 0 29%;
+  flex: 0 0 29%;
+  max-width: 29%;
+}

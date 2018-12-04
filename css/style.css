@@ -1,0 +1,95 @@
+.button {
+  border-radius: 12px;
+  background: white;
+  border: 4px solid #FFD500;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.button:hover {
+	background: #FFD500;
+	outline: medium none;
+	cursor: pointer;
+}
+
+.button1 {
+	width: 150px;
+	height: 75px;
+	margin-bottom: 0px;
+}
+
+.button2 {
+	margin-top: 10px;
+	width: 125px;
+	height: 65px;
+}
+
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main {
+	background-color: white;
+	background: white;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border: 2px solid #494A4A;
+  	border-radius: 25px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+@media screen and (min-width: 480px){
+	.main {
+		background-color: white;
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 20px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		border: 2px solid #494A4A;
+	  	border-radius: 25px;
+		margin-left: auto;
+	  	margin-right: auto;
+	}
+}
+
+img.logo {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+img.slogan{
+	max-width: 75%;
+	max-height: 75%;
+}
+
+img.filebutton{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+img.chatbutton{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+body{
+background-color:#494A4A
+}
