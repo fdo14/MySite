@@ -3,6 +3,6 @@ var app = express();
 
 app.use(express.static(__dirname + '/www'));
 
-app.listen(3000, function(){
+app.listen(8080, function(){
   console.log("Dev sucks eggs");
 });
