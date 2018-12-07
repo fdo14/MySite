@@ -1,7 +1,6 @@
 {
   "name": "personalsite",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.16.4"
@@ -12,5 +11,14 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdo14/MySite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fdo14/MySite/issues"
+  },
+  "homepage": "https://github.com/fdo14/MySite#readme",
+  "description": ""
 }

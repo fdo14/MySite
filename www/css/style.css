@@ -13,7 +13,16 @@
 
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color:#f0f0f1;
+  position: relative;
+  z-index: -5;
 
+
+
+}
 
 
 .hidden{
@@ -155,7 +164,6 @@ a{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
 
   }
 
@@ -166,17 +174,6 @@ a{
   }
   body{
     overflow: hidden;
-  }
-
-  html, body {
-    margin: 0;
-    height: 100%;
-    background-color:#f0f0f1;
-    position: relative;
-    z-index: -5;
-
-
-
   }
   .bottom {
 
