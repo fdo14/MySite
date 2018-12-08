@@ -152,10 +152,10 @@ a{
   body{
 
 
-    top: 0;
+
 
     background-color:white;
-    background-repeat: no-repeat;
+
     background-attachment: fixed;
     background-position: center;
 
@@ -165,6 +165,7 @@ a{
   -moz-background-size: 150vh;
   -o-background-size: 150vh;
   background-size: 150vh;
+  background-repeat: no-repeat;
 
   }
 
