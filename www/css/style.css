@@ -165,8 +165,7 @@ a{
   -moz-background-size: 150vh;
   -o-background-size: 150vh;
   background-size: 150vh;
-  background-attachment: fixed;
-  background-position: center;
+
   top: 0;
   background-repeat: no-repeat;
 
