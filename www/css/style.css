@@ -150,9 +150,13 @@ a{
     display: none;
   }
   body{
-
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -10;
     height: 100%;
-    background: url(bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
