@@ -163,6 +163,10 @@ a{
 
 
     background-image: url("/img/desk2.jpg") ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   }
 
