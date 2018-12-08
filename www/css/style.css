@@ -150,10 +150,14 @@ a{
     display: none;
   }
   body{
-    background-image: url("/img/desk2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+
+    height: 100%;
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url("/img/desk2.jpg") no-repeat center center fixed;
 
   }
 
