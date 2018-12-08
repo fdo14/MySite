@@ -160,7 +160,7 @@ a{
     background-position: center;
 
     height: 100%;
-    background: url("/img/desk2.jpg") center center;
+    background: url("/img/desk2.jpg") center center fixed;
     -webkit-background-size: 150vh;
   -moz-background-size: 150vh;
   -o-background-size: 150vh;
