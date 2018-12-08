@@ -154,7 +154,7 @@ a{
 
 
     height: 100vh;
-
+    overflow-y: scroll;
     z-index: -10;
     position: fixed;
     background: url("/img/desk2.jpg") no-repeat center center fixed;
